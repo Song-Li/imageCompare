@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="./css/index.css">
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+  <div id = "picture_1" class = "picture_1">
+    <input type='file' onchange="uploadImage(this, 1);" />
+    <img id="img1" src = "#" alt="image1" />
+  </div>
+  <div id = "picture_2" class = "picture_2">
+    <input type='file' onchange="uploadImage(this, 2);" />
+    <img id="img2" src = "#" alt="image2" />
+  </div>
+  <div id = "subtract" class = "subtract">
+  </div>
+  <div id = "operations" class = "operations">
+    <input type="button" value = "subtract" onclick="subtract();" />
+  </div>
+</body>
+</html>
